@@ -19,4 +19,4 @@ e2e:
 
 dev:
 	rm -Rf .next/cache
-	docker-compose up -d dev
+	TEST_TYPE="none" docker-compose up -d dev
